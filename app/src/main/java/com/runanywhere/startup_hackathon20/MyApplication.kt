@@ -23,7 +23,6 @@ class MyApplication : Application() {
 
     private suspend fun initializeSDK() {
         try {
-
             // Step 1: Initialize SDK
             RunAnywhere.initialize(
                 context = this@MyApplication,
@@ -31,7 +30,6 @@ class MyApplication : Application() {
                 environment = SDKEnvironment.DEVELOPMENT
             )
 
-            // Step 2: Register LLM Service Provider
             LlamaCppServiceProvider.register()
 
             // Step 3: Register Models
@@ -48,11 +46,16 @@ class MyApplication : Application() {
     }
 
     private suspend fun registerModels() {
-        // Medium-sized model - better quality (374 MB)
         addModelFromURL(
             url = "https://huggingface.co/Triangle104/Qwen2.5-0.5B-Instruct-Q6_K-GGUF/resolve/main/qwen2.5-0.5b-instruct-q6_k.gguf",
-            name = "Qwen 2.5 0.5B Instruct Q6_K",
+            name = "Chat & Translator: Qwen 2.5",
             type = "LLM"
         )
+//
+//        addModelFromURL(
+//            url = "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-small.bin",
+//            name = "Audio Transcription: Whisper",
+//            type = "STT"
+//        )
     }
 }
