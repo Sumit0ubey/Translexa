@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Nova Logo](app/src/main/res/drawable-nodpi/nova_logo.png)
+<img src="app/src/main/res/drawable-nodpi/nova_logo.png" width="200" alt="Nova Logo">
 
 **Your Personal AI Assistant - 100% Offline & Private**
 
@@ -28,13 +28,11 @@ cutting-edge AI directly to your pocket.
 
 ## Features
 
-<div align="center">
+<table>
+<tr>
+<td width="60%">
 
 ### 🤖 AI Chat & Intelligence
-
-<img src="app/src/main/res/drawable-nodpi/ai_chat.jpeg" width="250" alt="AI Chat">
-
-</div>
 
 - **9+ On-Device AI Models** - SmolLM, Qwen, Llama, Phi, Mistral
 - **Real-time Streaming Responses** - See AI generate responses word-by-word
@@ -44,15 +42,20 @@ cutting-edge AI directly to your pocket.
 - **Performance Boost** - CPU priority & battery optimization
 - **One-Click Model Switching** - Change models mid-conversation
 
+</td>
+<td width="40%">
+<img src="app/src/main/res/drawable-nodpi/ai_chat.jpeg" width="100%" alt="AI Chat">
+</td>
+</tr>
+</table>
+
 ---
 
-<div align="center">
+<table>
+<tr>
+<td width="60%">
 
 ### 🎤 Voice Assistant
-
-<img src="app/src/main/res/drawable-nodpi/voice_assistant.jpeg" width="250" alt="Voice Assistant">
-
-</div>
 
 - **Offline Voice Recognition** - Powered by Vosk speech recognition
 - **Live Transcription** - See your speech converted to text in real-time
@@ -62,15 +65,20 @@ cutting-edge AI directly to your pocket.
 - **Picture-in-Picture (PiP) Mode** - Voice assistant floats over other apps
 - **Animated Voice UI** - Beautiful glowing circle with pulse effects
 
+</td>
+<td width="40%">
+<img src="app/src/main/res/drawable-nodpi/voice_assistant.jpeg" width="100%" alt="Voice Assistant">
+</td>
+</tr>
+</table>
+
 ---
 
-<div align="center">
+<table>
+<tr>
+<td width="60%">
 
 ### 📷 Image & Document Analysis
-
-<img src="app/src/main/res/drawable-nodpi/image_document.jpeg" width="250" alt="Image & Document Analysis">
-
-</div>
 
 - **Image Upload & AI Analysis** - Ask questions about images
 - **Optical Character Recognition (OCR)** - Extract text from images
@@ -79,15 +87,20 @@ cutting-edge AI directly to your pocket.
 - **Text File Processing** - Analyze .txt, .md, .csv files
 - **Multi-Modal Queries** - Combine text, images, and files in one chat
 
+</td>
+<td width="40%">
+<img src="app/src/main/res/drawable-nodpi/image_document.jpeg" width="100%" alt="Image & Document Analysis">
+</td>
+</tr>
+</table>
+
 ---
 
-<div align="center">
+<table>
+<tr>
+<td width="60%">
 
 ### 🎵 Audio Notes & Transcription
-
-<img src="app/src/main/res/drawable-nodpi/audio_notes.jpeg" width="250" alt="Audio Notes">
-
-</div>
 
 - **Audio File Upload** - Support for multiple audio formats
 - **Speech-to-Text Transcription** - Convert audio to text offline
@@ -96,15 +109,20 @@ cutting-edge AI directly to your pocket.
 - **Terminology Detection** - Find technical terms in audio
 - **Export Notes** - Download transcriptions as text files
 
+</td>
+<td width="40%">
+<img src="app/src/main/res/drawable-nodpi/audio_notes.jpeg" width="100%" alt="Audio Notes">
+</td>
+</tr>
+</table>
+
 ---
 
-<div align="center">
+<table>
+<tr>
+<td width="60%">
 
 ### 💬 Chat Management
-
-<img src="app/src/main/res/drawable-nodpi/chat_managemnet.jpeg" width="250" alt="Chat Management">
-
-</div>
 
 - **Session History** - All conversations saved automatically
 - **Resume Old Chats** - Continue any previous conversation
@@ -113,15 +131,20 @@ cutting-edge AI directly to your pocket.
 - **Clear All History** - Wipe all data with confirmation
 - **Message Copy** - Long-press to copy any message
 
+</td>
+<td width="40%">
+<img src="app/src/main/res/drawable-nodpi/chat_managemnet.jpeg" width="100%" alt="Chat Management">
+</td>
+</tr>
+</table>
+
 ---
 
-<div align="center">
+<table>
+<tr>
+<td width="60%">
 
 ### ⚙️ Settings & Personalization
-
-<img src="app/src/main/res/drawable-nodpi/settings.jpeg" width="250" alt="Settings">
-
-</div>
 
 - **Personal Profile** - Name, age, gender, interests
 - **Custom AI Instructions** - Guide AI's response style
@@ -131,6 +154,13 @@ cutting-edge AI directly to your pocket.
 - **Pitch Adjustment** - Low to high voice pitch
 - **TTS Toggle** - Enable/disable text-to-speech
 - **Persistent Settings** - All preferences saved locally
+
+</td>
+<td width="40%">
+<img src="app/src/main/res/drawable-nodpi/settings.jpeg" width="100%" alt="Settings">
+</td>
+</tr>
+</table>
 
 ### System & Performance
 
